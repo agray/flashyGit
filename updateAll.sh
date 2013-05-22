@@ -13,6 +13,7 @@ less out.txt
 while read line
 do
     cd $line
+	echo "Updating " $line
     git pull
     cd ..
 done < out.txt
