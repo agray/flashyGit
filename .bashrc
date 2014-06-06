@@ -21,6 +21,7 @@ shopt -s checkwinsize
  
 # for fast typing
 alias gs='git status'
+alias gt='git tag'
 alias sa='stash apply'
 alias sc='stash clear'
 alias sd='stash drop'
