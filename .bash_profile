@@ -9,6 +9,7 @@ shopt -s histappend
 
 function setdirectory { cd /c/gitrepos ; }
 
+git --version
 setdirectory
 
 # check the window size after each command and, if necessary,
