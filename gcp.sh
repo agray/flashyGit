@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-git commit -am "$1"
+git commit -S -a -m "$1"
 git push
